@@ -11,7 +11,7 @@ export default function Footer(props) {
       <a href="http://www.linkedin.com/in/ben-grzybowski-27739b1b">
         <img className='image-footer' src={linkedIn} border="0" alt="" />
       </a>
-      <p id='copyright'>Ben Grzybowski 2019</p>
+      <p id='copyright'>Dino/Otter 2019</p>
     </footer>
   )
 }

@@ -4,7 +4,7 @@ export default function Header(props) {
 
   return (
     <header>
-      <h1>Application Name</h1>
+      <h1>Area Salon</h1>
       <nav>
         <Link to="/">Home</Link>
         <Link to="/about">About</Link>
