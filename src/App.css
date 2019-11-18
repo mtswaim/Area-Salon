@@ -48,8 +48,9 @@ header h1{
 footer {
   flex: 0 0 auto;
   padding-top: 20px;
-  background-color: lavenderblush;
+  background-color: #414040;
   text-align: center;
+  color: #fcdcd6;
 }
 .image-footer{
   width: 50px;
