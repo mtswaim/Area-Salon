@@ -7,13 +7,10 @@ import { Route } from 'react-router-dom';
 import Home from './components/Home';
 import About from './components/About';
 
-class App extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      something: [],
+class App extends Component {
+  state = {
+    something: [],
 
-    }
   }
   handleChange = (event) => {
     //dosomething
