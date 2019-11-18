@@ -4,10 +4,10 @@ import { getData } from './services/api-helper';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import { Route } from 'react-router-dom';
-import Home from './components/Home';
-import About from './components/About';
+import Body from './components/Body';
+import ArtistDetails from './components/ArtistDetails';
 
-class App extends Component {
+class App extends React.Component {
   state = {
     something: [],
 
@@ -31,11 +31,12 @@ class App extends Component {
     return (
       <div className="app" >
         <Header />
-        <Route exact path="/" render={() => (<Home
+        <Route exact path="/" render={() => (<Body
           handleSubmit={this.handleSubmit}
           handleChange={this.handleChange}
-        />)} />
-        <Route path="/about" render={() => (<About />)} />
+        />)}
+        />
+        <Route path="/artists" render={() => (<ArtistDetails />)} />
         <Footer />
       </div>
     );

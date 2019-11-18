@@ -7,7 +7,7 @@ export default function Header(props) {
       <h1>Area Salon</h1>
       <nav>
         <Link to="/">Home</Link>
-        <Link to="/about">About</Link>
+        <Link to="/a">Artists</Link>
       </nav>
     </header>
   )
