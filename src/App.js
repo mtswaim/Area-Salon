@@ -6,7 +6,7 @@ import Footer from './components/Footer';
 import { Route } from 'react-router-dom';
 import Body from './components/Body';
 import ArtistDetails from './components/ArtistDetails';
-
+import Nav from './components/Nav'
 class App extends React.Component {
   state = {
     something: [],
@@ -31,6 +31,7 @@ class App extends React.Component {
     return (
       <div className="app" >
         <Header />
+        <Nav />
         <Route exact path="/" render={() => (<Body
           handleSubmit={this.handleSubmit}
           handleChange={this.handleChange}

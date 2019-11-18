@@ -4,11 +4,10 @@ export default function Header(props) {
 
   return (
     <header>
-      <h1>Area Salon</h1>
-      <nav>
-        <Link to="/">Home</Link>
-        <Link to="/a">Artists</Link>
-      </nav>
+      <h1>Aerea Salon</h1>
+      <h2>52 W 21st St New York, NY 10010 | 212.929.4680 </h2>
+      <button>Book</button>
+      <line></line>
     </header>
   )
 }

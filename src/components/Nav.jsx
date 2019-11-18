@@ -1,10 +1,22 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
-export default function About() {
+export default function Nav() {
 
   return (
     <main className="main">
-      <h1>Welcome to my about page</h1>
+      <nav>
+        <Link to='/'>
+          <a>Home</a>
+        </Link>
+        <Link to='#Artists'>
+          <a>Artists</a>
+        </Link>
+        <a>Blog</a>
+        <a>Contact Us</a>
+        <a>About Us</a>
+        <line></line>
+      </nav>
     </main>
   )
 }
