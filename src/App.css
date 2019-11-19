@@ -44,6 +44,7 @@ header h1{
   flex: 1 1 auto;
   position: relative;
   display: flex;
+  flex-direction: column;
 }
 footer {
   flex: 0 0 auto;
@@ -94,3 +95,16 @@ footer {
       justify-content: flex-start;
     }
   }
+.carousel-inner .active.left { left: -33%; }
+.carousel-inner .next        { left:  33%; }
+.carousel-control.left,.carousel-control.right {background-image:none;}
+
+
+.artist-image{
+  width: 25vw;
+  height: 20vw;
+}
+.artists{
+  width: 80%;
+  margin-left: 5vw;
+}
