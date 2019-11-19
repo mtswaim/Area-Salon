@@ -1,4 +1,5 @@
 import React from 'react';
+import Artists from './Artists';
 
 export default function Home(props) {
 
@@ -7,6 +8,7 @@ export default function Home(props) {
       <h1>
         Welcome
         </h1>
+      <Artists/>
     </main >
   )
 }
