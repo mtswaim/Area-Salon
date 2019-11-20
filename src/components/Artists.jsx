@@ -1,8 +1,8 @@
 import React from 'react'
 import Slider from 'infinite-react-carousel';
-import artist1 from '../w1.png';
-import artist2 from '../w2.png';
-import artist3 from '../w3.png';
+import artist1 from '../images/w1.png';
+import artist2 from '../images/w2.png';
+import artist3 from '../images/w3.png';
 import { Link } from 'react-router-dom';
 
 export default function Artists() {
