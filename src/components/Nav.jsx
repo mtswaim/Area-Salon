@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom';
 export default function Nav() {
 
   return (
-    <main className="main">
-      <nav>
+    <div id='nav-box'>
+      <nav id='nav'>
         <Link to='/'>
           <a>Home</a>
         </Link>
@@ -15,9 +15,9 @@ export default function Nav() {
         <a>Blog</a>
         <a>Contact Us</a>
         <a>About Us</a>
-        <line></line>
       </nav>
-    </main>
+      <line id='line'></line>
+    </div>
   )
 }
 
