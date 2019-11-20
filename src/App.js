@@ -33,11 +33,9 @@ class App extends React.Component {
         <Header />
         <Nav />
         <Route exact path="/" render={() => (<Body
-          handleSubmit={this.handleSubmit}
-          handleChange={this.handleChange}
         />)}
         />
-        <Route path="/artists" render={() => (<ArtistDetails />)} />
+        <Route path="/artist" render={() => (<ArtistDetails />)} />
         <Footer />
       </div>
     );

@@ -144,3 +144,21 @@ footer {
   font-size: 2.3em;
   font-family: Arial, Helvetica, sans-serif;
 }
+#artist-box{
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+#artist-box-pics{
+  justify-self: center;
+}
+#artist-box-info{
+  justify-self: center;
+}
+#artist-box-pics-main-pic{
+  width:300px;
+  height: 300px;
+}
+.details-img{
+  width: 100px;
+  height: 100px;
+}
