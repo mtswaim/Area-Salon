@@ -11,11 +11,13 @@ export default function Footer(props) {
       <button className="footer-buttons">Subscribe</button>
       <div id="footer-group">
         <p>Home Testimonials</p>
-        <i className="im im-instagram"></i>
-        <i class="im im-youtube"></i>
-        <i class="im im-facebook"></i>
-        <i class="im im-twitter"></i>
-        <i class="im im-linkedin"></i>
+        <div id="footer-links">
+          <i className="im im-instagram"></i>
+          <i className="im im-youtube"></i>
+          <i className="im im-facebook"></i>
+          <i className="im im-twitter"></i>
+          <i className="im im-linkedin"></i>
+        </div>
       </div>
     </footer>
   )
