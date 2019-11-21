@@ -277,6 +277,30 @@ footer {
       background-size: 100% 100%;
       justify-content: flex-start;
     } */
+    html {
+      font-size: 75%;
+    }
+    #nav {
+      width: 90%;
+      padding: 0 5% 0 5%;
+    }
+    #slogan-box {
+    width: 70vw;
+      height: 15vh;
+      top: 61%;
+      left: 14%;
+  }
+
+  #book-button {
+      width: 20vw;
+  }
+  #container {
+    height: 45vh;
+}
+    #hero-image {
+      height: 63%;
+      width: 80%;
+    }
     #artist-box{
       display: grid;
       grid-template-columns: 1fr;
