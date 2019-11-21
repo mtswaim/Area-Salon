@@ -1,6 +1,6 @@
 import React from 'react';
 import Artists from './Artists';
-import hero from '../images/Hero.png';
+import hero from '../images/Salon.jpg';
 import cosmo from '../images/Cosmo.png'
 import klein from '../images/Klein.png'
 import knot from '../images/Knot.png'

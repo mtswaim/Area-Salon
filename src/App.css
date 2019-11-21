@@ -27,7 +27,7 @@ body,
 }
 #line {
   width: 80%;
-  height: 7px;
+  height: 3px;
   border: solid 1px #979797;
   background-color: #111111;
   display: inline-block;
@@ -64,7 +64,7 @@ body,
 }
 #container {
   position: relative;
-  height: 70vh;
+  height: 67vh;
   width: 100%;
 }
 #slogan {
@@ -91,15 +91,17 @@ body,
   display: inline-block;
   position: absolute;
   top: 26%;
-  left: 53%;
+  left: 68%;
 }
 #body {
   display: flex;
 }
 #hero-image {
   position: absolute;
-  top: 20%;
-  left: 20%;
+  top: 2%;
+  left: 10%;
+  height: 98%;
+  width: 60%;
 }
 p {
   margin-bottom: 1em;
@@ -121,7 +123,7 @@ nav a{
   line-height: normal;
   letter-spacing: -0.32px;
   text-align: center;
-  margin: 5% 0 5% 0;
+  margin: 3% 0 3% 0;
   font-family: 'Open Sans', sans-serif;
 }
 nav a:hover {
