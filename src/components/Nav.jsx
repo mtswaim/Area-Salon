@@ -7,14 +7,14 @@ export default function Nav() {
     <div id='nav-box'>
       <nav id='nav'>
         <Link to='/'>
-          <a>Home</a>
+          <a id="nav-link">Home</a>
         </Link>
         <a href='#artists'>
-          <a>Artists</a>
+          <a id="nav-link">Artists</a>
         </a>
-        <a>Blog</a>
-        <a>Contact Us</a>
-        <a>About Us</a>
+        <a id="nav-link">Blog</a>
+        <a id="nav-link">Contact Us</a>
+        <a id="nav-link">About Us</a>
       </nav>
       <line id='line'></line>
     </div>
