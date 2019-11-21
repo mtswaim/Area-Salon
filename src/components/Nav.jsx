@@ -9,9 +9,9 @@ export default function Nav() {
         <Link to='/'>
           <a>Home</a>
         </Link>
-        <Link to='#Artists'>
+        <a href='#artists'>
           <a>Artists</a>
-        </Link>
+        </a>
         <a>Blog</a>
         <a>Contact Us</a>
         <a>About Us</a>

@@ -130,15 +130,22 @@ nav a:hover {
 }
 #magz {
   text-align: center;
+  width: 80%;
+  margin-bottom: 5%;
 }
 #magz #line {
   height: 1px;
+  width: 100%;
+}
+#magz img {
+  width: 20%;
 }
 .main {
   flex: 1 1 auto;
   position: relative;
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 footer {
   flex: 0 0 auto;
@@ -177,6 +184,10 @@ footer {
   font-family: "Open Sans";
   font-weight: bold;
 }
+.carousel-prev:before, .carousel-next:before {
+  background-image: none;
+  background-image: url(../src/images/Arrow.png);
+}
 #subscribe{
   font-size: 1.4em;
   font-family: "Open Sans";
@@ -193,7 +204,6 @@ footer {
 .carousel-inner .next        { left:  33%; }
 .carousel-control.left,.carousel-control.right {background-image:none;}
 
-
 .artist-image{
   width: 18vw;
   height: 17vw;
@@ -201,7 +211,6 @@ footer {
 }
 .artists{
   width: 80%;
-  margin-left: 7vw;
   margin-bottom: 2vh;
 }
 .container{

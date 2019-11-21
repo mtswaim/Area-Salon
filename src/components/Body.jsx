@@ -1,6 +1,11 @@
 import React from 'react';
 import Artists from './Artists';
 import hero from '../images/Hero.png';
+import cosmo from '../images/Cosmo.png'
+import klein from '../images/Klein.png'
+import knot from '../images/Knot.png'
+import lucky from '../images/Lucky.png'
+import bride from '../images/Bride.png'
 
 export default function Body(props) {
 
@@ -15,11 +20,11 @@ export default function Body(props) {
       </div>
       <div id='magz'>
         <line id='line'></line>
-        <img id='cosmo'></img>
-        <img id='Kleinfeld'></img>
-        <img id='knot'></img>
-        <img id='Lucky'></img>
-        <img id='bride'></img>
+        <img id='cosmo' src={cosmo}></img>
+        <img id='Kleinfeld' src={klein}></img>
+        <img id='knot' src={knot}></img>
+        <img id='Lucky' src={lucky}></img>
+        <img id='bride' src={bride}></img>
         <line id='line'></line>
       </div>
       <Artists />

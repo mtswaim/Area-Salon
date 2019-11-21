@@ -10,7 +10,7 @@ export default function Artists() {
     slidesPerRow: 3
   };
   return (
-    <div className='artists'>
+    <div className='artists' id='artists'>
       <Slider {...settings}>
         <Link to="/artist">
           <div className="container">
