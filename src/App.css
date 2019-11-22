@@ -195,7 +195,12 @@ footer {
   font-family: "Open Sans";
   font-weight: bold;
 }
-.carousel-prev:before, .carousel-next:before {
+.carousel-prev:before {
+  background-image: none;
+  background-image: url(../src/images/Arrow.png);
+  transform: rotate(180deg);
+}
+.carousel-next:before {
   background-image: none;
   background-image: url(../src/images/Arrow.png);
 }
