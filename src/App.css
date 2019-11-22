@@ -139,6 +139,9 @@ nav a:hover {
   color: #111111;
 
 }
+#nav-link:hover{
+  color: #111111;
+}
 #magz {
   text-align: center;
   width: 80%;
